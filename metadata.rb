@@ -1,0 +1,10 @@
+name             'odi-logging'
+maintainer       'The Open Data Institute'
+maintainer_email 'tech@theodi.org'
+license          'MIT'
+description      'Installs/Configures chef-odi-logging'
+long_description 'Installs/Configures chef-odi-logging'
+version          '0.1.0'
+
+depends 'odi-apt'
+depends 'loggly-rsyslog'
